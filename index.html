@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       
+        <div class="product-card">
+            <img class="product-img" src="product1.jpg">
+            <h1 class="product-name">Premium Headphones MD2313</h1>
+            <p class="product-description">
+                Crystal-clear sound, 40mm drivers, noise-cancellation,
+                20-hour battery life, and ultra-soft ear cushions for all-day comfort.
+            </p>
+            <h2 class="product-price">Price: $100</h2>
+            <div class="product-quantity">    
+                <button id="decrement-btn" onclick="decrement()">-</button>
+                <p id="count-el">0</p>
+                <button id="increment-btn" onclick="increment()">+</button>
+            </div>
+        </div>
+
+        <button id="save-btn" onclick="save()">Add to Cart</button>
+        <p id="save-el"></p>
+
+        <script src="index.js">
+        </script>
+    </body>
+</html>
